@@ -30,65 +30,7 @@ graph LR;
   0 -- "eew" --> eew -- " " --> meteor;
   0 -- "ewe" --> ewe -- " " --> meteor;
   0 -- "wee" --> wee -- " " --> meteor;
-  qwe -- "q" --> weq;
-  qwe -- "w" --> wew;
-  qwe -- "e" --> wee;
-  qew -- "q" --> ewq;
-  qew -- "w" --> eww;
-  qew -- "e" --> ewe;
   
-  wqe -- "w" --> qew;
-  wqe -- "e" --> qee;
-  
-  weq -- "w" --> eqw;
-  weq -- "e" --> eqe;
-  eqw -- "q" --> qwq;
-  
-  eqw -- "e" --> qwe;
-  ewq -- "q" --> wqq;
-  ewq -- "w" --> wqw;
-  ewq -- "e" --> wqe;
+  qeq -- "w" --> eqw -- "w" --> qww -- "w" --> www -- "w" --> www -- "q" --> wwq -- "q" --> wqq -- "e" --> qqe -- "w" --> qew -- "q" --> ewq -- "e" --> wqe -- "w" --> qew -- "e" --> ewe -- "e" --> wee -- "w" --> eew -- "e" --> ewe -- "w" --> wew -- "w" --> eww -- "w" --> www -- "e" --> wwe -- "e" --> wee -- "q" --> eeq -- "e" --> eqe -- "e" --> qee -- "e" --> eee -- "e" --> eee -- "q" --> eeq -- "w" --> eqw -- "q" --> qwq -- "e" --> wqe -- "e" --> qee -- "w" --> eew -- "w" --> eww -- "e" --> wwe -- "w" --> wew -- "e" --> ewe -- "q" --> weq -- "w" --> eqw -- "e" --> qwe -- "q" --> weq -- "e" --> eqe -- "w" --> qew -- "w" --> eww -- "q" --> wwq -- "w" --> wqw -- "e" --> qwe -- "w" --> wew -- "q" --> ewq -- "q" --> wqq -- "w" --> qqw -- "e" --> qwe -- "e" --> wee -- "e" --> eee -- "w" --> eew -- "q" --> ewq -- "w" --> wqw -- "w" --> qww -- "e" --> wwe -- "q" --> weq -- "q" --> eqq -- "w" --> qqw -- "w" --> qww -- "q" --> wwq -- "e" --> wqe -- "q" --> qeq -- "e" --> eqe -- "q" --> qeq -- "q" --> eqq -- "e" --> qqe -- "e" --> qee -- "q" --> eeq -- "q" --> eqq -- "q" --> qqq -- "w" --> qqw -- "q" --> qwq -- "w" --> wqw -- "q" --> qwq -- "q" --> wqq -- "q" --> qqq -- "q" --> qqq -- "e" --> qqe -- "q" --> qeq
 
-  qeq -- "w" --> eqw -- "w" --> qww -- "w" --> www -- "w" --> www -- "q" --> wwq -- "q" --> wqw -- "w" --> qww -- "e" --> wwe -- "q" --> weq -- "q" --> eqq -- "w" --> qqw -- "w" --> qww -- "q" --> wwq -- "e" --> wqe -- "q" --> qeq -- "e" --> eqe -- "q" --> qeq -- "q" --> eqq -- "e" --> qqe -- "e" --> qee -- "q" --> eeq -- "q" --> eqq -- "q" --> qqq -- "w" --> qqw -- "q" --> qwq -- "w" --> wqw -- "q" --> qwq -- "q" --> wqq -- "q" --> qqq -- "q" --> qqq -- "e" --> qqe -- "q" --> qeq;
-
-  wqq -- "w" --> qqw -- "e" --> qwe;
-  wqq -- "e" --> qqe -- "w" --> qew;
-    
-  eww -- "w" --> www -- "e" --> wwe -- "e" --> wee;
-  
-  wwq -- "w" --> wqw;
-  
-  wwe -- "w" --> wew;
-
-  eeq -- "w" --> eqw;
-  eeq -- "e" --> eqe;
-  
-  eew -- "w" --> eww -- "q" --> wwq;
-  eew -- "e" --> ewe;
-  eee -- "q" --> eeq;
-  eee -- "w" --> eew -- "q" --> ewq;
-  eee -- "e" --> eee;
-  
-  qee -- "w" --> eew;
-  qee -- "e" --> eee;
-  
-  wee -- "q" --> eeq;
-  wee -- "w" --> eew;
-  wee -- "e" --> eee;
-      
-  eww -- "e" --> wwe;
-
-  qwq -- "e" --> wqe;
-     
-  wqw -- "e" --> qwe;
-
-  wew -- "q" --> ewq;
-  wew -- "w" --> eww;
-  wew -- "e" --> ewe -- "q" --> weq
-  
-  eqe -- "w" --> qew;
-  eqe -- "e" --> qee;
-
-  ewe -- "w" --> wew;
-  ewe -- "e" --> wee;
 ``` 
