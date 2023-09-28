@@ -26,3 +26,6 @@ w = 1
 e = 1
 generated_strings = generate_strings(q, w, e)
 print(generated_strings)
+
+
+#ЭТОТ КОД НЕ РАБОТАЕТ))
